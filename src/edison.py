@@ -3,11 +3,16 @@ from subprocess import call
 sys.path.insert(0, "../lib")
 import Leap
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
+import socket
 
-PORT = "51717"
+HOST = "192.168.29.206" # remote host
+PORT = 50007 # remote port
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((HOST, PORT))
 
 def send_to_server(direction):
-    call(["./client", direction, PORT])
+    s.send(direction)
 
 def main():
     controller = Leap.Controller()
@@ -15,8 +20,6 @@ def main():
 
     controller.enable_gesture(Leap.Gesture.TYPE_SWIPE);
     prev_comm = ""
-    # create a.out
-    call(["gcc", "client.c", "-o", "client"])
 
     while(1):
 
