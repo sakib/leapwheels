@@ -7,6 +7,5 @@ server: clean
   ./server 51717
 
 clean:
-  rm * .o
-  rm client
-  rm server
+  rm -f client
+  rm -f server
