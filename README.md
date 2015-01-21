@@ -1,5 +1,7 @@
 # Leap-Wheels
 
+![alt tag](http://i.imgur.com/ajAa2Ic.jpg)
+
 Leap motion controlled minicar equipped with 4 stepper motors and an Intel Edison. Built at DragonHacks Jan 2015.
 Downloaded Leap motion SDK on Mac and opened visualizer to see hands moving.
 Began to use leap motion API in python wrappers to manipulate leap motion data.
