@@ -26,7 +26,7 @@ Videos of it working:
   2. https://vimeo.com/117357461
 
 Team: 
-Alec Huang, Senior at University of the Sciences in Philadelphia
-Sakib Jalal, Freshman ar Rutgers University, New Brunswick
-Allan Michel, Junior at Drexel University, Philadelphia
-Feiyeung Xue, Junior at Drexel University, Philadelphia
+- Alec Huang, Senior at University of the Sciences in Philadelphia. 
+- Sakib Jalal, Freshman ar Rutgers University, New Brunswick. 
+- Allan Michel, Junior at Drexel University, Philadelphia. 
+- Feiyeung Xue, Junior at Drexel University, Philadelphia. 
