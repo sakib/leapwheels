@@ -14,6 +14,7 @@ Necessary Parts:
   - Wheels (4)
   - Power supply for Intel Edison (9V battery)
   - Power supply for ther components (varies)
+  
 Our chassis was built from two pieces of corrugated cardboard cut from spare boxes. The two cardboard sheets were aligned to cross the corrugation for strength and fastened to each other via staples. Though not necessary, tape covered the staples for a cleaner board.
 Before fastening the components, a layout was sketched onto the chassis. The layout can differ, but we chose a compact layout with the wheels closer together for better turning. To secure the parts, we drilled holes into the chassis on each side of every component and fastened them down with zipties and tape (although the tape barely helped).
 Properly connect all the wiring for the electronics. Attach wheels to motor shaft (we used 3D-printed bearings for fit). Power up for use.
